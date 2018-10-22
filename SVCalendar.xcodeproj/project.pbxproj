@@ -12,7 +12,6 @@
 		45E9D4F3217DF45300DA3A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E9D4F1217DF45300DA3A33 /* Main.storyboard */; };
 		45E9D4F5217DF45400DA3A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E9D4F4217DF45400DA3A33 /* Assets.xcassets */; };
 		45E9D4F8217DF45400DA3A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E9D4F6217DF45400DA3A33 /* LaunchScreen.storyboard */; };
-		45E9D500217DF50900DA3A33 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 45E9D4FF217DF50900DA3A33 /* .gitignore */; };
 		45E9D502217DF7AD00DA3A33 /* SVCalendarAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9D501217DF7AD00DA3A33 /* SVCalendarAdapter.swift */; };
 		45E9D504217DF8BA00DA3A33 /* SVCalenderDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9D503217DF8BA00DA3A33 /* SVCalenderDateCell.swift */; };
 		45E9D506217DF92500DA3A33 /* SVCalenderDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E9D505217DF92500DA3A33 /* SVCalenderDateCell.xib */; };
@@ -34,6 +33,9 @@
 		45E9D505217DF92500DA3A33 /* SVCalenderDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVCalenderDateCell.xib; sourceTree = "<group>"; };
 		45E9D507217DF97200DA3A33 /* SVCalenderHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVCalenderHeaderView.xib; sourceTree = "<group>"; };
 		45E9D508217DF97200DA3A33 /* SVCalenderHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVCalenderHeaderView.swift; sourceTree = "<group>"; };
+		45E9D50B217E023400DA3A33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45E9D50D217E02C900DA3A33 /* calendar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calendar.gif; sourceTree = "<group>"; };
+		45E9D50E217E030500DA3A33 /* calenderH.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calenderH.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				45E9D4FF217DF50900DA3A33 /* .gitignore */,
+				45E9D50B217E023400DA3A33 /* README.md */,
+				45E9D50E217E030500DA3A33 /* calenderH.gif */,
+				45E9D50D217E02C900DA3A33 /* calendar.gif */,
 				45E9D4EC217DF45300DA3A33 /* SVCalendar */,
 				45E9D4EB217DF45300DA3A33 /* Products */,
 			);
@@ -140,7 +145,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E9D500217DF50900DA3A33 /* .gitignore in Resources */,
 				45E9D509217DF97200DA3A33 /* SVCalenderHeaderView.xib in Resources */,
 				45E9D506217DF92500DA3A33 /* SVCalenderDateCell.xib in Resources */,
 				45E9D4F8217DF45400DA3A33 /* LaunchScreen.storyboard in Resources */,
