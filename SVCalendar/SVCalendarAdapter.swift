@@ -82,6 +82,7 @@ extension SVCalendarAdapter: UICollectionViewDataSource {
                 cell.rightBorder.isHidden = true
             } else {
                 cell.textLabel.text = "\(currentDate.day())"
+                cell.textLabel.textColor = currentDate.isSunday() ? UIColor.red : UIColor.purple
                 cell.leftBorder.isHidden = false
                 cell.rightBorder.isHidden = !currentDate.isSaturday()
             }
@@ -144,11 +145,6 @@ extension SVCalendarAdapter {
     }
 }
 
-protocol SVCalendarAdapterDelegate: class {
-    func dateAdapter(_ adapter:SVCalendarAdapter, didSelect option:SVCalendarAdapter.SelectionType)
-}
-
-
 fileprivate extension Date {
     init(year : Int, month : Int, day : Int) {
         
@@ -192,6 +188,10 @@ fileprivate extension Date {
     
     func isSaturday() -> Bool {
         return (self.getWeekday() == 7)
+    }
+    
+    func isSunday() -> Bool {
+        return getWeekday() == 1
     }
     
     func getWeekday() -> Int {
