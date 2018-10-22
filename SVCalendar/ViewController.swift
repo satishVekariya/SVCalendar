@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    var adapter:SVCalendarAdapter!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        adapter = SVCalendarAdapter(collectionView, self, year: 2018, startMonth: 1, totalMonth: 12)
     }
 
 
+}
+
+extension ViewController : SVCalendarAdapterDelegate {
+    func dateAdapter(_ adapter: SVCalendarAdapter, didSelect option: SVCalendarAdapter.SelectionType) {
+        print("123_321")
+    }
 }
 
