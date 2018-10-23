@@ -22,8 +22,8 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : SVCalendarAdapterDelegate {
-    func dateAdapter(_ adapter: SVCalendarAdapter, didSelect option: SVCalendarAdapter.SelectionType) {
-        print("123_321")
+    func calendar(_ adapter: SVCalendarAdapter, didSelect option: SVCalendarAdapter.SelectionType) {
+        
     }
 }
 

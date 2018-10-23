@@ -8,6 +8,9 @@
 
 import UIKit
 
+protocol SVCalendarAdapterDelegate: class {
+    func calendar(_ adapter: SVCalendarAdapter, didSelect option: SVCalendarAdapter.SelectionType)
+}
 
 class SVCalendarAdapter: NSObject {
     let CELL_DATE = "dateCell"
