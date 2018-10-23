@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var layout: UICollectionViewFlowLayout!
     
     var adapter:SVCalendarAdapter!
     override func viewDidLoad() {
         super.viewDidLoad()
+        layout.sectionHeadersPinToVisibleBounds = true
         adapter = SVCalendarAdapter(collectionView, self, year: 2018, startMonth: 1, totalMonth: 12)
     }
 

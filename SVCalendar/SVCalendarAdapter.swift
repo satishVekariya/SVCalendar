@@ -132,7 +132,7 @@ extension SVCalendarAdapter: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         let sectionInset = self.collectionView(collectionView, layout: collectionViewLayout, insetForSectionAt: section)
         let cellWidth = collectionView.frame.width - sectionInset.left - sectionInset.right
-        return CGSize(width: cellWidth, height: 44)
+        return CGSize(width: cellWidth, height: 64)
     }
     
     
