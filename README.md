@@ -7,4 +7,4 @@ SVCalendar is a lightweight Calander.
 
 ![calender](/calendar.gif "calender")
 
-![layout](/calenderH.gif "calenderH")
+[layout](/calenderH.gif "calenderH")
